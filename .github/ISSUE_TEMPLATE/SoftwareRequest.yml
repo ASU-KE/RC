@@ -27,7 +27,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: brief description
+    id: description
     attributes:
       label: What software?
       description: Also tell us as much as you can about the software being requested?
