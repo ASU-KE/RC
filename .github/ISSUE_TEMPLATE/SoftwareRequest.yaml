@@ -1,15 +1,15 @@
-name: Bug Report
-description: File a bug report.
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+name: New Software Request
+description: File a software request.
+title: "[Application]: "
+labels: ["software", "request"]
+projects: ["ASU-KE/RC"]
 assignees:
-  - octocat
+  - acchapm1
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this Software Request form.
   - type: input
     id: email
     attributes:
@@ -27,41 +27,40 @@ body:
       validations:
         required: true
   - type: textarea
-    id: what-happened
+    id: brief description
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: What software?
+      description: Also tell us as much as you can about the software being requested?
+      placeholder: Software name, version, and a brief description of what it does.
+      value: "More Software!"
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: clustser
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Cluster
+      description: Which Cluster are you wanting this software on?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - Sol
+        - Phoenix
       default: 0
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+  - type: checkboxes
+    id: license
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: Is there a license server needed for this software?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Yes
+        - No
+        - Already have one
+        - Not sure
   - type: textarea
-    id: logs
+    id: licenseserver
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: Name of license server
+      description: Please provide the name of the license server.
   - type: checkboxes
     id: terms
     attributes:
