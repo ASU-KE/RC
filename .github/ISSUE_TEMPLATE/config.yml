@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ASU KE Research Computing
+    url: mailto://rtshelp.asu.edu
+    about: Please send us an email if you are unable to reach us here.
+  - name: GitHub Security Bug Bounty
+    url: https://bounty.github.com/
+    about: Please report security vulnerabilities here.
