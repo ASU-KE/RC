@@ -28,8 +28,20 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: What software?
-      description: Also tell us as much as you can about the software being requested?
+      label: Software Description
+      description: tell us as much as you can about the software being requested?
       placeholder: Software name, version, and a brief description of what it does.
+    validations:
+      required: true
+  - type: dropdown
+    id: cluster
+    attributes:
+      label: Cluster
+      description: Please choose the cluster that this software will be installed on.
+      multiple: false
+      options:
+        - Sol (Default)
+        - Phoenix (Edge)
+      default: 0
     validations:
       required: true
