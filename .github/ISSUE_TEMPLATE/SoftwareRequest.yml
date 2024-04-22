@@ -19,13 +19,13 @@ body:
     validations:
       required: true
   - type: input
-     id: asurite
-     attributes:
-       label: ASURITE
-       description: What is your ASURITE?
-       placeholder: ex. acchapm1
-      validations:
-        required: true
+    id: asurite
+    attributes:
+      label: ASURITE
+      description: What is your ASURITE?
+      placeholder: ex. acchapm1
+    validations:
+      required: true
   - type: textarea
     id: brief description
     attributes:
