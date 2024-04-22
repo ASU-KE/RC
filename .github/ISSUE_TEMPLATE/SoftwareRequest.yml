@@ -2,9 +2,6 @@ name: New Software Request
 description: File a software request.
 title: "[Application]: "
 labels: ["software", "request"]
-projects: ["ASU-KE/RC"]
-assignees:
-  - acchapm1
 body:
   - type: markdown
     attributes:
@@ -25,14 +22,28 @@ body:
       placeholder: ex. acchapm1
     validations:
       required: true
-  - type: textarea
-    id: description
+  - type: input
+    id: name
     attributes:
-      label: Software Description
-      description: tell us as much as you can about the software being requested?
-      placeholder: Software name, version, and a brief description of what it does.
+      label: Software Name
+      description: Name of software to be installed?
+      placeholder: ex. OpenFoam
     validations:
       required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Software version      
+      placeholder: ex. 2312
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Is there anything that you want to add?   describe anything additional that you would like to be part of this request.
+    validations:
+      required: false)
   - type: dropdown
     id: cluster
     attributes:
