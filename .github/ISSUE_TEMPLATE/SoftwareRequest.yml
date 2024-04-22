@@ -40,8 +40,8 @@ body:
       description: Please choose the cluster that this software will be installed on.
       multiple: false
       options:
-        - Sol (Default)
-        - Phoenix (Edge)
+        - Sol
+        - Phoenix 
       default: 0
     validations:
       required: true
