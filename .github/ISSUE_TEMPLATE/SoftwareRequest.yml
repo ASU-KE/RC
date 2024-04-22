@@ -43,7 +43,7 @@ body:
       label: Notes
       description: Is there anything that you want to add?   describe anything additional that you would like to be part of this request.
     validations:
-      required: false)
+      required: false
   - type: dropdown
     id: cluster
     attributes:
