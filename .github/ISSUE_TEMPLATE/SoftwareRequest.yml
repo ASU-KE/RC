@@ -33,29 +33,3 @@ body:
       placeholder: Software name, version, and a brief description of what it does.
     validations:
       required: true
-  - type: dropdown
-    id: clustser
-    attributes:
-      label: Cluster
-      description: Which Cluster are you wanting this software on?
-      options:
-        - Sol (Default)
-        - Phoenix
-      default: 0
-    validations:
-      required: true
-  - type: checkboxes
-    id: license
-    attributes:
-      label: Is there a license server needed for this software?
-      multiple: true
-      options:
-        - Yes
-        - No
-        - Already have one
-        - Not sure
-  - type: textarea
-    id: licenseserver
-    attributes:
-      label: Name of license server
-      description: Please provide the name of the license server.
