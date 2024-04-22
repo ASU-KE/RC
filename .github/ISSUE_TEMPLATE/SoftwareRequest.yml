@@ -32,7 +32,6 @@ body:
       label: What software?
       description: Also tell us as much as you can about the software being requested?
       placeholder: Software name, version, and a brief description of what it does.
-      value: "More Software!"
     validations:
       required: true
   - type: dropdown
@@ -41,7 +40,7 @@ body:
       label: Cluster
       description: Which Cluster are you wanting this software on?
       options:
-        - Sol
+        - Sol (Default)
         - Phoenix
       default: 0
     validations:
@@ -61,11 +60,3 @@ body:
     attributes:
       label: Name of license server
       description: Please provide the name of the license server.
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
