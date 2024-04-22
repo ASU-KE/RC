@@ -1,6 +1,7 @@
 name: New Software Request
 description: File a software request.
 title: " "
+attributes:
   placeholder: Application name
 labels: ["software", "request"]
 body:
