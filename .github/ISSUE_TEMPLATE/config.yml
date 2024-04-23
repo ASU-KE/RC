@@ -1,8 +1,8 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
-  - name: ASU KE Research Computing
-    url: mailto://rtshelp.asu.edu
-    about: Please send us an email if you are unable to reach us here.
-  - name: GitHub Security Bug Bounty
-    url: https://bounty.github.com/
-    about: Please report security vulnerabilities here.
+  - name: ASU Research Computing
+    url: https://cores.research.asu.edu/research-computing/about
+    about: The main point of entry for Research Computing at ASU.
+  - name: Join our Slack Channel
+    url: https://asu-community.slack.com/archives/CMTPR329M
+    about: Your slack channel is available for questions 24/7.
