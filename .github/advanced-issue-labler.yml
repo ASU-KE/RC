@@ -1,0 +1,12 @@
+# syntax - https://github.com/redhat-plumbers-in-action/advanced-issue-labeler#policy
+---
+
+policy:
+  - section:
+      - id: ['dropdown']
+        block-list: ['other']
+        label:
+          - name: Sol
+            keys: ['Sol']
+          - name: Phoenix
+            keys: ['Phoenix']
