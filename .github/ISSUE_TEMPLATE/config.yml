@@ -3,18 +3,18 @@ contact_links:
   - name: ASU Research Computing
     url: https://cores.research.asu.edu/research-computing/about
     about: The main point of entry for Research Computing at ASU.
-  - name: Join our Slack Channel
-    url: https://asu-community.slack.com/archives/CMTPR329M
-    about: Your slack channel is available for questions 24/7.
   - name: Sol Dashboard
     url: https://dashboard.sol.rc.asu.edu/
     about: The Sol Dashboard to show the status of the cluster.
-  - namme: Phoenix Dashboard
-    url: https://dashboard.phx.rc.asu.edu/
-    about: The Phoenix Dashboard to show the status of the cluster.
   - name: Sol Web Interface
     url: https://sol.rc.asu.edu/
     about: The Sol Web Interface to access the cluster.
+  - namme: Phoenix Dashboard
+    url: https://dashboard.phx.rc.asu.edu/
+    about: The Phoenix Dashboard to show the status of the cluster.
   - name: Phoenix Web Interface
     url: https://phx.rc.asu.edu/
     about: The Phoenix Web Interface to access the cluster. 
+  - name: Join our Slack Channel
+    url: https://asu-community.slack.com/archives/CMTPR329M
+    about: Your slack channel is available for questions 24/7.
