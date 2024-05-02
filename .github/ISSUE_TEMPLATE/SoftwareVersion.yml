@@ -1,15 +1,10 @@
 name: New Software Version Request
 description: File a software version update
-title: "[Application]: "
-labels: ["software", "request"]
-projects: ["ASU-KE/RC"]
-assignees:
-  - acchapm1
+labels: ["software", "request", "version"]
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this Software Request form.
+      value: "Thank you for taking the time to fill out this Software Request form."
   - type: input
     id: email
     attributes:
@@ -26,46 +21,37 @@ body:
       placeholder: ex. acchapm1
     validations:
       required: true
-  - type: textarea
-    id: description
+  - type: input
+    id: name
     attributes:
-      label: What software?
-      description: Also tell us as much as you can about the software being requested?
-      placeholder: Software name, version, and a brief description of what it does.
-      value: "More Software!"
+      label: Software Name
+      description: Name of software to be installed?
+      placeholder: ex. OpenFoam
     validations:
       required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Software version      
+      placeholder: ex. 2312
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Is there anything that you want to add?   describe anything additional that you would like to be part of this request.
+    validations:
+      required: false
   - type: dropdown
-    id: clustser
+    id: cluster
     attributes:
       label: Cluster
-      description: Which Cluster are you wanting this software on?
+      description: Please choose the cluster that this software will be installed on.
+      multiple: false
       options:
         - Sol
-        - Phoenix
+        - Phoenix 
       default: 0
     validations:
       required: true
-  - type: checkboxes
-    id: license
-    attributes:
-      label: Is there a license server needed for this software?
-      multiple: true
-      options:
-        - Yes
-        - No
-        - Already have one
-        - Not sure
-  - type: textarea
-    id: licenseserver
-    attributes:
-      label: Name of license server
-      description: Please provide the name of the license server.
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
