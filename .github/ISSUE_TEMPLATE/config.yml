@@ -9,7 +9,7 @@ contact_links:
   - name: Sol Web Interface
     url: https://sol.rc.asu.edu/
     about: The Sol Web Interface to access the cluster.
-  - namme: Phoenix Dashboard
+  - name: Phoenix Dashboard
     url: https://dashboard.phx.rc.asu.edu/
     about: The Phoenix Dashboard to show the status of the cluster.
   - name: Phoenix Web Interface
