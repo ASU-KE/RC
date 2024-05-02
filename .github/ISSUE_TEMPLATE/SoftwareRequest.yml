@@ -50,8 +50,8 @@ body:
       description: Please choose the severity of the impact of this issue.
       multiple: false
       options:
-        - 'Sol'
-        - 'Phoenix'
+        - Sol
+        - Phoenix
         default: 0
     validations:
       required: true
