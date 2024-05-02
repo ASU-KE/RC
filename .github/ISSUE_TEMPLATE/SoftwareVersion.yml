@@ -1,4 +1,4 @@
-name: New Software Version Request
+name: New Software Version
 description: File a software version update
 labels: ["software", "request", "version"]
 body:
