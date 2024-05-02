@@ -52,6 +52,6 @@ body:
       options:
         - Sol
         - Phoenix
-        default: 0
+      default: 0
     validations:
       required: true
