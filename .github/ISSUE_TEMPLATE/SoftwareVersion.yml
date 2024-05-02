@@ -1,0 +1,71 @@
+name: New Software Version Request
+description: File a software version update
+title: "[Application]: "
+labels: ["software", "request"]
+projects: ["ASU-KE/RC"]
+assignees:
+  - acchapm1
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Software Request form.
+  - type: input
+    id: email
+    attributes:
+      label: Contact email
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: input
+    id: asurite
+    attributes:
+      label: ASURITE
+      description: What is your ASURITE?
+      placeholder: ex. acchapm1
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What software?
+      description: Also tell us as much as you can about the software being requested?
+      placeholder: Software name, version, and a brief description of what it does.
+      value: "More Software!"
+    validations:
+      required: true
+  - type: dropdown
+    id: clustser
+    attributes:
+      label: Cluster
+      description: Which Cluster are you wanting this software on?
+      options:
+        - Sol
+        - Phoenix
+      default: 0
+    validations:
+      required: true
+  - type: checkboxes
+    id: license
+    attributes:
+      label: Is there a license server needed for this software?
+      multiple: true
+      options:
+        - Yes
+        - No
+        - Already have one
+        - Not sure
+  - type: textarea
+    id: licenseserver
+    attributes:
+      label: Name of license server
+      description: Please provide the name of the license server.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
