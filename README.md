@@ -1,6 +1,3 @@
-# RC
-Research Computing public repository for anything related to HPC
-
 ***ASU-KE Research Computing***
 **Software Request Form** *(GitHub Issues Form)*
 
