@@ -63,15 +63,18 @@ body:
       placeholder: ex. openmpi 4.1.5
     validations:
       required: false
-  - type: checkboxes
+  - type: dropdown
     id: license
     attributes:
       label: License
       description: Is this licensed software?  If so please provide the license information in the notes section.
+      multiple: false
       options:
         - 'Yes'
         - 'No'
         - 'Unknown'
+    validations:
+      required: true
   - type: textarea
     id: notes
     attributes:
