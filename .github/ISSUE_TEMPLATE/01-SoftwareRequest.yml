@@ -21,6 +21,17 @@ body:
       placeholder: ex. acchapm1
     validations:
       required: true
+  - type: dropdown
+    id: cluster
+    attributes:
+      label: Cluster
+      description: Please choose the severity of the impact of this issue.
+      multiple: false
+      options:
+        - 'Sol'
+        - 'Phoenix'
+    validations:
+      required: true
   - type: input
     id: name
     attributes:
@@ -52,6 +63,15 @@ body:
       placeholder: ex. openmpi 4.1.5
     validations:
       required: false
+  - type: checkboxes
+    id: license
+    attributes:
+      label: License
+      description: Is this licensed software?  If so please provide the license information in the notes section.
+      options:
+        - 'Yes'
+        - 'No'
+        - 'Unknown'
   - type: textarea
     id: notes
     attributes:
@@ -59,14 +79,4 @@ body:
       description: Is there anything that you want to add?   describe anything additional that you would like to be part of this request.
     validations:
       required: false
-  - type: dropdown
-    id: cluster
-    attributes:
-      label: Cluster
-      description: Please choose the severity of the impact of this issue.
-      multiple: false
-      options:
-        - 'Sol'
-        - 'Phoenix'
-    validations:
-      required: true
+
