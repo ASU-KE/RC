@@ -1,13 +1,12 @@
 ## ASU-KE Research Computing
 
-**Software Requests**
+### Software Requests
 
 To request the installation of software on any ASU RC HPC supercomputer, please utilize the following form: [Software Request Form](https://github.com/ASU-KE/RC/issues/new?assignees=&labels=software%2Crequest&projects=&template=01-SoftwareRequest.yml).
 
 Before submitting a new request, you can verify whether a request for the same software is already in progress by visiting our tracking page: [Current Software Requests](https://github.com/ASU-KE/RC/issues).
 
 Using these resources will facilitate the monitoring and progression of your request.
-
 
 ### Details to Include in the Software Request Form
 
