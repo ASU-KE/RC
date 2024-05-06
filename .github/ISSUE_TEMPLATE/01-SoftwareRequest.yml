@@ -70,8 +70,8 @@ body:
       description: Is this licensed software?  If so please provide the license information in the notes section.
       multiple: false
       options:
-        - 'Yes'
         - 'No'
+        - 'Yes'
         - 'Unknown'
     validations:
       required: true
