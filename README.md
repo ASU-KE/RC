@@ -1,4 +1,4 @@
-***ASU-KE Research Computing***
+##ASU-KE Research Computing
 
 **Software Requests**
 
@@ -8,7 +8,6 @@ Before submitting a new request, you can verify whether a request for the same s
 
 Using these resources will facilitate the monitoring and progression of your request.
 
----
 
 ### Details to Include in the Software Request Form
 
