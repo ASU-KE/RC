@@ -4,7 +4,7 @@ labels: ["software", "request"]
 body:
   - type: markdown
     attributes:
-      value: "Thank you for taking the time to fill out this Software Request form."
+      value: "Thank you for taking the time to fill out this Software Request form.  Please fill out the following information to the best of your ability.  This will help us expedite the process of getting the software installed on the HPC systems.  If you have any questions please reach out to us via [Slack](https://asu.enterprise.slack.com/archives/CMTPR329M)"
   - type: input
     id: email
     attributes:
@@ -73,6 +73,17 @@ body:
         - 'No'
         - 'Yes'
         - 'Unknown'
+    validations:
+      required: true
+  - type: dropdown
+    id: testcase
+    attributes:
+      label: Test Case
+      description: Do you have a test case or example usage that we can run to test the software?
+      multiple: false
+      options:
+        - 'No'
+        - 'Yes'
     validations:
       required: true
   - type: textarea
