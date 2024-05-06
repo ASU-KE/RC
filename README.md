@@ -22,7 +22,7 @@ When filling out the software request form for installation on an ASU RC HPC sup
 
 4. **License Information:** If the software requires a license, specify whether you already have a license or if assistance is needed in acquiring one. Include license type if applicable (individual, group, site license).
 
-5. **Links to software being requested:** Having a link to the software will help with making sure we are installing the correct software for your request.
+5. **Links:** Having a link to the software will help with making sure we are installing the correct software for your request.
 
 6. **Contact Information:** Provide your contact details for any follow-up questions or clarifications needed regarding your request. This includes your name, department, and the best way to reach you (email, phone).
 

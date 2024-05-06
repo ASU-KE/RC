@@ -36,6 +36,22 @@ body:
       placeholder: ex. 2312
     validations:
       required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Please provide a link to the software, this will help us expedite the processs.       
+      placeholder: ex. http://github.com/...
+    validations:
+      required: false
+  - type: input
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: If known or there are options for dependecies. Please list any dependencies that are required for this software to run.
+      placeholder: ex. openmpi 4.1.5
+    validations:
+      required: true
   - type: textarea
     id: notes
     attributes:
