@@ -2,10 +2,10 @@
 
 ### Software Requests
 
-To install software on the HPC for individual use, please refer to our ”[Building Software on ASU Supercomputers](https://asurc.atlassian.net/wiki/spaces/RC/pages/1993932838/Building+Software+on+ASU+Supercomputers)” Wiki Page
-Before submitting a new request, you can verify whether a request for the same software is already in progress by visiting our tracking page: [Current Software Requests](https://github.com/ASU-KE/RC/issues).
-To request the installation of software on any ASU RC HPC supercomputer, please utilize the following form: [Software Request Form](https://github.com/ASU-KE/RC/issues/new?assignees=&labels=software%2Crequest&projects=&template=01-SoftwareRequest.yml).
-Using these resources will facilitate the monitoring and progression of your request.
+* To install software on the HPC for individual use, please refer to our ”[Building Software on ASU Supercomputers](https://asurc.atlassian.net/wiki/spaces/RC/pages/1993932838/Building+Software+on+ASU+Supercomputers)” Wiki Page
+* Before submitting a new request, you can verify whether a request for the same software is already in progress by visiting our tracking page: [Current Software Requests](https://github.com/ASU-KE/RC/issues).
+* To request the installation of software on any ASU RC HPC supercomputer, please utilize the following form: [Software Request Form](https://github.com/ASU-KE/RC/issues/new?assignees=&labels=software%2Crequest&projects=&template=01-SoftwareRequest.yml).
+* Using these resources will facilitate the monitoring and progression of your request.
 
 Details to Include in the Software Request Form
 When filling out the software request form for installation on an ASU RC HPC supercomputer, including detailed and specific information can significantly enhance the efficiency of the process. Here are the key details you should include in your request:
@@ -19,4 +19,3 @@ When filling out the software request form for installation on an ASU RC HPC sup
 7. **Additional Instructions or Requirements:** If there are specific configurations or customizations needed, describe them clearly. This includes any environment modules that need to be loaded or specific paths for installation.
 
 Providing comprehensive and precise information in your request not only speeds up the review process but also minimizes back-and-forth communication, leading to a smoother and faster installation.
-
