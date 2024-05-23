@@ -7,7 +7,7 @@
 * To request the installation of software on any ASU RC HPC supercomputer, please utilize the following form: [Software Request Form](https://github.com/ASU-KE/RC/issues/new?assignees=&labels=software%2Crequest&projects=&template=01-SoftwareRequest.yml).
 * Using these resources will facilitate the monitoring and progression of your request.
 
-Details to Include in the Software Request Form
+### Details to Include in the Software Request Form
 When filling out the software request form for installation on an ASU RC HPC supercomputer, including detailed and specific information can significantly enhance the efficiency of the process. Here are the key details you should include in your request:
 
 1. **Software Name and Version:** Clearly specify the name of the software and the version you require. If the version is not specified, the latest stable version might be assumed.
